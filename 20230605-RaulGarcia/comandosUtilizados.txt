@@ -1,0 +1,87 @@
+  383  mkdir 20230605-RaulGaracia
+  384  clear
+  385  cd 20230605-RaulGaracia/
+  386  clear
+  387  ll
+  388  ls -la
+  389  git init
+  390  ls -la
+  391  clear
+  392  git config user.name "Raul Garcia"
+  393  git config user.email "raulgm00@gmail.comm"
+  394  cat ./.git/config
+  395  git remote add origin https://github.com/raulgm00/20230605-Raul-Garacia.git
+  396  git remote -v
+  397  touch comandos.txt main.js index.html
+  398  ll
+  399  pwd
+  400  git commit 01 de RaulGarcia
+  401  git status
+  402  git add .
+  403  git commit -m "commit 01 de RaulGarcia"
+  404  git push origin main
+  405  git log
+  406  git init
+  407  ll
+  408  ls -la
+  409  git config user.name "Raul Garcia"
+  410  git config user.mail "raulgm00@gmail.com"
+  411  clear
+  412  touch comandos.txt main.js index.html
+  413  ll
+  414  git add .
+  415  git commi-m "commit 01 de RaulGarcia"
+  416  git commit -m "commit 01 de RaulGarcia"
+  417  git remote add origin https://github.com/raulgm00/20230605-RaulGarcia.git
+  418  got remote -v
+  419  git remote -v
+  420  git push origin main
+  421  clear
+  422  git branch -b feature01
+  423  git checkout -b feature01
+  424  mkdir Terminal Hadware
+  425  ll
+  426  clear
+  427  ll
+  428  touch resumen.txt Terminal/ Hadware/
+  429  tree
+  430  mv resumen.txt Terminal/
+  431  tree
+  432  touch resumen.txt Hadware/
+  433  tree
+  434  mv Hadware/ Hardware
+  435  tree
+  436  touch resumen.txt Hardware/
+  437  tree
+  438  mv resumen.txt Hardware/
+  439  tree
+  440  git add .
+  441  git commit -m "commit 02 de RaulGarcia"
+  442  git push origin fe
+  443  kkkkcdfsdfsfdwerfre3geg
+  444  git status
+  445  git commit -m " commit 02 de RaulGarcia"
+  446  git push origin feature01
+  447  git checkout -b feature02
+  448  cd Terminal/
+  449  vim resumen.txt
+  450  cat resumen.txt
+  451  clear
+  452  tree
+  453  cd ../Hardware/
+  454  vim resumen.txt
+  455  cat resumen.txt
+  456  git add .
+  457  git commit -m "commit 03 de RaulGarcia"
+  458  git push origin feature02
+  459  git checkout main
+  460  git status
+  461  cd ..
+  462  clear
+  463  git status
+  464  git add .
+  465  git commit -m "commit 04 de RaulGarcia"
+  466  git push origin feature02
+  467  git checkout main
+  468  tree
+  469  mv comandos.txt comandosUtilizados.txt
